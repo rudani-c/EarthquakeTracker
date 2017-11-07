@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Button
+        android:id="@+id/get_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get location" />
+
+    <TextView
+        android:id="@+id/dialogOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="OR"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Latitude"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Radius"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/two_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 degrees "
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/four_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 degrees " />
+
+        <RadioButton
+            android:id="@+id/eight_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 degrees " />
+
+        <RadioButton
+            android:id="@+id/fifteen_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 degrees " />
+    </RadioGroup>
+
+</LinearLayout>

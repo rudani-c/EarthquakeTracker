@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/mac/Desktop/EarthquakeTracker/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/mac/Desktop/EarthquakeTracker/app/src/main/res/menu/main.xml"
+    }
+]

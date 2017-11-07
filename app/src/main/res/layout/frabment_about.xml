@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="20dp"
+            android:text="Version"
+            android:textColor="@color/grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="4dp"
+            android:text="4.0"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/license_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earthquake News"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/license_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/license_1"
+                android:breakStrategy="balanced"
+                android:text=" is trademarks of "
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/license_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/license_2"
+                android:text="H and M"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/license_2"
+                android:layout_toRightOf="@+id/license_3"
+                android:text=". All rights reserved"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/license_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earthquake News is built using open source softwares: "
+                android:textColor="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_touch_for_licences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/license_5"
+                android:text="licenses..."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sources_licence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:paddingTop="20dp"
+            android:text="Copyright 2017 rudanic\n\n
+
+Licensed under the Apache License, Version 2.0 (the License);\n
+you may not use this file except in compliance with the License.\n
+You may obtain a copy of the License at\n\n
+
+    http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+Unless required by applicable law or agreed to in writing, software\n
+distributed under the License is distributed on an AS IS BASIS,\n
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n
+See the License for the specific language governing permissions and\n
+limitations under the License.\n\n\n
+
+Other open web sources used are:\n
+http://giphy.com/search/earthquake
+https://www.dosomething.org/us/facts/11-facts-about-earthquakes
+https://earthquake.usgs.gov/learn/kids/eqscience.php
+http://www.ga.gov.au/scientific-topics/hazards/emergency-management\n\n
+
+Open Sources above mentioned are used to create Earthquake news applications"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

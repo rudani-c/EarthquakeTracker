@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "103490759276",
+    "firebase_url": "https://earthquake-news.firebaseio.com",
+    "project_id": "earthquake-news",
+    "storage_bucket": "earthquake-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103490759276:android:d2fb4cd008dc16ff",
+        "android_client_info": {
+          "package_name": "com.rudanic.earthquaketracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103490759276-ml342ksmr25fa57f6836ns7hlp4c2anh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlsGCK2fYed4db_3-qgW-zz3zGRn7lIiw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

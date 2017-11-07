@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v16/earthquake_list_items.xml",
+        "source": "/Users/mac/Desktop/EarthquakeTracker/app/src/main/res/layout-v16/earthquake_list_items.xml"
+    }
+]

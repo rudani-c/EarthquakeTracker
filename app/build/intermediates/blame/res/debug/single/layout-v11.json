@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/EarthquakeTracker/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/mac/.android/build-cache/c65be2d4e3000d899b6845e350ca3bc16dd2a15a/output/res/layout-v11/notification_template_big_media.xml"
+    }
+]
